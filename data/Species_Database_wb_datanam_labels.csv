@@ -1,0 +1,14 @@
+order,name,type,isnumeric,format,varlab
+1,group,str24,0,%24s,Species Group
+2,binomial,str63,0,%63s,Scientific Name
+3,iucn_id_no,double,1,%12.0g,IUCN ID Number
+4,common_name,str136,0,%136s,Species Common Name
+5,name_language,str45,0,%45s,Language of Species Common Name
+6,iucn_category,str5,0,%9s,IUCN Red List Category
+7,iso_a3,str3,0,%9s,ISO alpha 3 codes
+8,total_area,float,1,%9.0g,Total Species Range Area (sq. km.)
+9,small_range,float,1,%9.0g,Total Range Area <= 25 sq. km.
+10,wb_datanam,str44,0,%44s,"Data name of country, dependency or sovereign country : WB"
+11,wb_iso,str3,0,%9s,ISO 3 letter code : WB
+12,datanam_area,double,1,%9.0g,"Species Range Area in country, dependency or sovereign country"
+13,datanam_pct_area,double,1,%9.0g,"Percent of Total Species Range Area in country, dependency or sovereign country"
